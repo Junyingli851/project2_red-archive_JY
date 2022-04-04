@@ -1,0 +1,101 @@
+
+body {
+	font-family: 'Xanh Mono';
+	background-color: black;
+
+}
+
+a:hover {
+	color: red;
+}
+
+
+h3 {
+	font-size: 200%;
+	margin: 0px;
+
+}
+
+h1 {
+	font-family: Helvetica;
+	font-weight: lighter;
+	font-size: 35pt;
+	margin: 20px,0,0,0;
+	position: absolute;
+	display: inline;
+    color: white;
+}
+
+h2 {
+	font-family: Helvetica;
+	font-weight: lighter;
+	text-align: center;
+	font-size: 35pt;
+	float: right;
+	display: inline;
+	margin-left: 20px;
+    color: white;
+}
+
+
+/* main {
+	display: flex;
+} */
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 1px solid black;
+    margin-top: 40px;
+}
+
+.image {
+	border-radius: 15px;
+
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.content{
+	width:200px;
+    height: 200px;
+	color: white;
+}
+
+iframe {
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+	object-fit: fill;
+	border-radius: 15px;
+}
+
+figure {
+	margin: 50px;
+	padding: 10px;
+
+	margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+
+
+/* figcaption {
+  color: black;
+  font-style: italic;
+  text-align: center;
+} */
+
+#channel-description > *,
+figure > *:not(:first-child),
+.description > *:not(:first-child),
+.content > *:not(:first-child) {
+	display: flex;
+	margin-top: 1em;
+}
+
+/* Clear them out once you’ve got your channel plugged in! */
